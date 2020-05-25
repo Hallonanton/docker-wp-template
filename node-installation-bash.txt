@@ -1,0 +1,15 @@
+# update 
+apt-get update
+# install curl 
+apt-get install curl
+# get install script and pass it to execute: 
+curl -sL https://deb.nodesource.com/setup_4.x | bash
+# and install node 
+apt-get install nodejs
+# confirm that it was successful 
+node -v
+# npm installs automatically 
+npm -v
+Use curl -sL https://deb.nodesource.com/setup_5.x | bash for node 5.x
+
+Replace 5 by your desired node version e.g. 8, 12, etc.
